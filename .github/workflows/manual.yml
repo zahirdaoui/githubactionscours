@@ -1,7 +1,9 @@
 name: Manual
 on: workflow_dispatch
 jobs:
- steps:
-  - name: Deploy application
-  run: echo "Deploy Appliactions"
+ deploy:
+   runs-on: ubuntu-latest
+   steps:
+    - name: Deploy application
+      run: echo "Deploy Appliactions"
   
