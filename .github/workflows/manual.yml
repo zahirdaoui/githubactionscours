@@ -1,0 +1,7 @@
+name: Manual
+on: workflow_dispatch
+jobs:
+ steps:
+  - name: Deploy application
+  run: echo "Deploy Appliactions"
+  
