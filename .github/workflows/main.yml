@@ -3,7 +3,7 @@ name: First Worflow
 on:
   push: 
     branches:
-     -main
+     - main
 jobs:
   example-job:
     runs-on: ubuntu-latest
